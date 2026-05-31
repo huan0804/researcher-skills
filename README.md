@@ -1,12 +1,31 @@
-# Researcher Skill for Claude Code
+# Researcher Skill
 
 A structured research agent that finds, verifies, and synthesizes information using a rigorous 5-step process — with mandatory source citations and clear separation between real data and estimates.
 
-## Install
+Works with Claude Code, Cursor, Windsurf, GitHub Copilot, and any AI tool that accepts a system prompt.
 
+---
+
+## Installation by Platform
+
+### Claude Code
 ```
 /install-skill github:huan0804/researcher-skills
 ```
+
+### Cursor
+Copy `.cursorrules` to your project root, or add to global Cursor rules in Settings → Rules for AI.
+
+### Windsurf
+Copy `.windsurfrules` to your project root.
+
+### GitHub Copilot
+Copy `.github/copilot-instructions.md` to your repo's `.github/` folder.
+
+### ChatGPT / Gemini / Grok / Any AI
+Open `system-prompt.md`, copy the full content, and paste it into the system prompt or custom instructions field of your AI tool.
+
+---
 
 ## What It Does
 
@@ -18,9 +37,7 @@ When triggered, the agent works through 5 steps in order:
 4. **Phân tích và tìm insight** — Identify trends, competitive dynamics, root causes
 5. **Báo cáo và khuyến nghị** — Structured report with citations and next actions
 
-## Triggers
-
-The skill activates on keywords: `nghiên cứu`, `tìm hiểu`, `tóm tắt thông tin`, `phân tích thị trường`, `market research`, `research`
+---
 
 ## Rules
 
@@ -28,7 +45,26 @@ The skill activates on keywords: `nghiên cứu`, `tìm hiểu`, `tóm tắt th�
 - Explicitly marks estimates vs. real data
 - Defaults to Vietnamese responses
 - States assumptions clearly instead of fabricating data
+- No padding — every sentence must carry information
+
+---
+
+## File Structure
+
+```
+researcher-skills/
+├── SKILL.md                        ← Claude Code
+├── .cursorrules                    ← Cursor
+├── .windsurfrules                  ← Windsurf
+├── .github/copilot-instructions.md ← GitHub Copilot
+├── system-prompt.md                ← Copy-paste for any AI
+├── package.json
+├── LICENSE
+└── README.md
+```
+
+---
 
 ## License
 
-MIT
+MIT © huan0804
