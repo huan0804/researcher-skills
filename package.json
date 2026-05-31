@@ -1,0 +1,27 @@
+{
+  "name": "researcher-skill",
+  "version": "1.0.0",
+  "description": "A structured 5-step research agent for market analysis and information synthesis, with source citation enforcement.",
+  "main": "SKILL.md",
+  "skills": {
+    "researcher": "SKILL.md"
+  },
+  "author": "nguyenkhoahuan84",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nguyenkhoahuan84/researcher-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nguyenkhoahuan84/researcher-skill/issues"
+  },
+  "keywords": [
+    "skill-md",
+    "claude-code",
+    "research",
+    "market-research",
+    "information-synthesis",
+    "agent-skill",
+    "vietnamese"
+  ],
+  "license": "MIT"
+}
