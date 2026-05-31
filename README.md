@@ -5,7 +5,7 @@ A structured research agent that finds, verifies, and synthesizes information us
 ## Install
 
 ```
-/install-skill github:nguyenkhoahuan84/researcher-skill
+/install-skill github:huan0804/researcher-skills
 ```
 
 ## What It Does

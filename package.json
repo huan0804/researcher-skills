@@ -6,13 +6,13 @@
   "skills": {
     "researcher": "SKILL.md"
   },
-  "author": "nguyenkhoahuan84",
+  "author": "huan0804",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nguyenkhoahuan84/researcher-skill.git"
+    "url": "https://github.com/huan0804/researcher-skills.git"
   },
   "bugs": {
-    "url": "https://github.com/nguyenkhoahuan84/researcher-skill/issues"
+    "url": "https://github.com/huan0804/researcher-skills/issues"
   },
   "keywords": [
     "skill-md",
